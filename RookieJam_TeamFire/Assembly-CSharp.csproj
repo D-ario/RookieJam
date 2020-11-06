@@ -64,11 +64,17 @@
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_score.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_ControlCam.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_DestroyOnTouchCoupable.cs" />
-    <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_DestroyOnTouchFauxCoupable.cs" />
-    <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_DestroyOnTouchInnocent2.cs" />
-    <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_Fin.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\GameManager.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_Fin.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_DestroyOnTouchFauxCoupable.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\Team7_retourMenu.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_DestroyOnTouchInnocent2.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\Traffic script\WaypointManagerWindow.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\Traffic script\WaypointNavigator.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\Traffic script\_aypoint.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\Traffic script\PedestrianSpawner.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\Traffic script\WaypointEditor.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\Traffic script\CharacterNavigationController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

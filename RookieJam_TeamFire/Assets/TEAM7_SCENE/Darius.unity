@@ -251,6 +251,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bea0aff075407c84da4c47801aa689d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &153294205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5160995948447073880, guid: 903fe613ebfefab4cb4791d827b7d3b8, type: 3}
+  m_PrefabInstance: {fileID: 569107580}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &210623492
 GameObject:
   m_ObjectHideFlags: 0
@@ -2626,6 +2631,10 @@ PrefabInstance:
       propertyPath: mmv
       value: 
       objectReference: {fileID: 359691106}
+    - target: {fileID: 1780034496999708840, guid: 6766573a81bfd0e4496cc2db428d0082, type: 3}
+      propertyPath: menuStart
+      value: 
+      objectReference: {fileID: 153294205}
     - target: {fileID: 1780034496999708841, guid: 6766573a81bfd0e4496cc2db428d0082, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2713,6 +2722,18 @@ PrefabInstance:
     - target: {fileID: 1780034496999708845, guid: 6766573a81bfd0e4496cc2db428d0082, type: 3}
       propertyPath: m_Name
       value: Canvas menuFin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780034497859848995, guid: 6766573a81bfd0e4496cc2db428d0082, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780034497859848995, guid: 6766573a81bfd0e4496cc2db428d0082, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780034497859848995, guid: 6766573a81bfd0e4496cc2db428d0082, type: 3}
+      propertyPath: m_Color.b
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6766573a81bfd0e4496cc2db428d0082, type: 3}

@@ -56,16 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_ControlCam.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_mouvement.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_cameraMoov.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_tempsDeVie.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_DestroyOnTouchInnocent1.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_cursor.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_score.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_ControlCam.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_DestroyOnTouchCoupable.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_DestroyOnTouchFauxCoupable.cs" />
     <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_DestroyOnTouchInnocent2.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\TEAM7_Fin.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\GameManager.cs" />
+    <Compile Include="Assets\TEAM7_SCRIPT\Team7_retourMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

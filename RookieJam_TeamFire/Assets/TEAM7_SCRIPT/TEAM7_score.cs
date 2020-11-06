@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class TEAM7_score : MonoBehaviour
 {
     public static TEAM7_score instance;
-    public Text text;
-    int team7_score = 100;
+    public Text textScore;
+    public Text textScoreFinal;
+    public int team7_score = 100;
 
     void Start()
     {
@@ -15,7 +16,8 @@ public class TEAM7_score : MonoBehaviour
         {
             instance = this;
         }
-        text.text = "Points: 100";
+        textScore.text = "Points: " + team7_score.ToString();
+        textScoreFinal.text = "Points: " + team7_score.ToString();
     }
 
     public void ChangeScore(int scoreValue, bool isAugmented)
@@ -29,6 +31,8 @@ public class TEAM7_score : MonoBehaviour
             team7_score -= scoreValue;
         }
         
-        text.text = "Points: " + team7_score.ToString();
+        textScore.text = "Points: " + team7_score.ToString();
+        textScoreFinal.text = "Points: " + team7_score.ToString();
+        Debug.Log(team7_score);
     }
 }

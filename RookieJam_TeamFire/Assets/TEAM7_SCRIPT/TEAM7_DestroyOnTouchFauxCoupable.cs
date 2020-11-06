@@ -24,7 +24,7 @@ public class TEAM7_DestroyOnTouchFauxCoupable : MonoBehaviour
         AudioSource.PlayClipAtPoint(sound2, transform.position);
         isDebited = false;
         isAugmented = false;
-        TEAM7_score.instance.ChangeScore(scoreValue, isAugmented);
+        TEAM7_score.instance.ChangeScore(scoreValue, isAugmented); 
         TEAM7_mouvement.instance.ChangeScore(mouvValue, isDebited);
         tdv.time = tdv.time - 2.0f;
         Destroy(gameObject);

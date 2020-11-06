@@ -7,7 +7,7 @@ public class TEAM7_mouvement : MonoBehaviour
 {
     public static TEAM7_mouvement instance;
     public Text text;
-    int team7_mouvement = 5;
+    public int team7_mouvement = 5;
 
     void Start()
     {

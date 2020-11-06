@@ -14,7 +14,6 @@ public class TEAM7_cameraMoov : MonoBehaviour
         {                 
             isDebited = false;
             TEAM7_mouvement.instance.ChangeScore(mouvValue, isDebited); 
-            
         }
     }
 }
